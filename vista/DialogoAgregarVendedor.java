@@ -28,7 +28,7 @@ public class DialogoAgregarVendedor extends JDialog
         lbNombreVendedor = new JLabel("Vendedor: ");
         lbNombreVendedor.setBounds(10,50,140,20);
         this.add(lbNombreVendedor);
-
+        
         tfNombreVendedor = new JTextField();
         tfNombreVendedor.setBounds(150,50,100, 25);
         this.add(tfNombreVendedor);

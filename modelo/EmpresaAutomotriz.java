@@ -24,25 +24,11 @@ public class EmpresaAutomotriz
         empleados = new ArrayList();
     }
 
-    /*public void agregarEmpleado(Empleado emp, int pos)
-    {
-        empleados[pos] = emp;
-    }*/
-
     public void agregarEmpleado(Empleado emp)
     {
         empleados.add(emp);
     }
 
-    /*public double calcularNomina()
-    {
-        double totalNomina = 0;
-        for(int i=0; i<empleados.length; i++)
-        {
-            totalNomina = totalNomina + empleados[i].getSueldo();
-        }
-        return totalNomina;
-    }*/
 
     public double calcularNomina()
     {

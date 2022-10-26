@@ -55,6 +55,8 @@ public class Controlador implements ActionListener
         if(comando.equals("venderCarro"))
         {
             venPrin.crearDialogoVenderCarro();
+            String Nombre = (String)this.venPrin.miPanelEntradaDatos.cbEmpleados.getSelectedItem();
+            venPrin.miDialogoVenderCarro.mostrarResultado(Nombre);
             this.venPrin.miDialogoVenderCarro.agregarOyenteBoton(this);
         }
 

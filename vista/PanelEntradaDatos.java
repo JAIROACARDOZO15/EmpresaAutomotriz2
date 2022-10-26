@@ -13,7 +13,7 @@ public class PanelEntradaDatos extends JPanel
     // Atributos
     //----------------------
     private JLabel lbEmpleados;
-    private JComboBox cbEmpleados;
+    public JComboBox cbEmpleados;
 
     //----------------------
     // Metodos
